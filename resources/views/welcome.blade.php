@@ -274,4 +274,13 @@
             <div class="h-14.5 hidden lg:block"></div>
         @endif
     </body>
+    <x-input label="Name" wire:model="name" placeholder="Your name" icon="o-user" hint="Your full name" />
+ 
+<x-input label="Right icon" wire:model="address" icon-right="o-map-pin" />
+ 
+<x-input label="Clearable" wire:model="name" placeholder="Clearable field" clearable />
+ 
+<x-input label="Prefix & Suffix" wire:model="name" prefix="www" suffix=".com" />
+ 
+<x-input label="Inline label" wire:model="name" placeholder="Hey, inline..." inline />
 </html>
