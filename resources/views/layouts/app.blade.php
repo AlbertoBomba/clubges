@@ -14,6 +14,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+        <script src="https://unpkg.com/flowbite@2.2.1/dist/flowbite.min.js"></script>
         <!-- Styles -->
         @livewireStyles
     </head>
@@ -21,16 +22,16 @@
         <x-banner />
 
         <div class="min-h-screen bg-gray-100">
-            @livewire('navigation-menu')
+            @livewire('navigation-menu-back')
 
             <!-- Page Heading -->
-            @if (isset($header))
+            {{-- @if (isset($header))
                 <header class="bg-white shadow">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
                     </div>
                 </header>
-            @endif
+            @endif --}}
 
             <!-- Page Content -->
             <main>
