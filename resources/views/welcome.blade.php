@@ -274,13 +274,16 @@
             <div class="h-14.5 hidden lg:block"></div>
         @endif
     </body>
-    <x-input label="Name" wire:model="name" placeholder="Your name" icon="o-user" hint="Your full name" />
- 
-<x-input label="Right icon" wire:model="address" icon-right="o-map-pin" />
- 
-<x-input label="Clearable" wire:model="name" placeholder="Clearable field" clearable />
- 
-<x-input label="Prefix & Suffix" wire:model="name" prefix="www" suffix=".com" />
- 
-<x-input label="Inline label" wire:model="name" placeholder="Hey, inline..." inline />
+    <div class="flex items-center justify-center gap-4 p-4 bg-black">
+        <x-mary-input label="Name" wire:model="name" placeholder="Your name" icon="o-user" hint="Your full name" />
+    
+         <x-mary-input label="Right icon" wire:model="address" icon-right="o-map-pin" />
+        
+        <x-mary-input label="Clearable" wire:model="name" placeholder="Clearable field" clearable />
+        
+         <x-mary-input label="Prefix & Suffix" wire:model="name" prefix="www" suffix=".com" />
+        
+         <x-mary-input label="Inline label" wire:model="name" placeholder="Hey, inline..." inline />
+    </div>
+
 </html>
