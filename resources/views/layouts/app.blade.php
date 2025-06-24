@@ -14,7 +14,6 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-        <script src="https://unpkg.com/flowbite@2.2.1/dist/flowbite.min.js"></script>
         <!-- Styles -->
         @livewireStyles
     </head>
